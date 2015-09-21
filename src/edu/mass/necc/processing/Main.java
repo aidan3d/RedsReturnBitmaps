@@ -3,7 +3,7 @@
 //                                                           *
 // Author:        Aidan Hegarty                              *
 //                                                           *
-// Last modified: September 15, 2015                         *
+// Last modified: September 20, 2015                         *
 //                                                           *
 //************************************************************
 package edu.mass.necc.processing;
@@ -14,11 +14,15 @@ package edu.mass.necc.processing;
  * engine in <i>NetBeans</i>.
  */
 public class Main {
-    // The Red's Return application starts here. It will be ported to
-    // the Processing language at a later date.
+    /**
+     * The <b>Red's Return</b> application starts here.
+     * It will be ported to the Processing language at
+     * a later date.
+     * @param args An array, used when this program is called by the
+     * command line or another program.
+     */
     public static void main(String[] args) {
-        // Fire up the fully qualified class for what-will-be
-        // our Processing "sketch."
+        // fire up the fully qualified class for what will be our Processing "sketch"
         RedsReturnBitmaps.main("edu.mass.necc.processing.RedsReturnBitmaps");
     }
 }
